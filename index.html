@@ -1,0 +1,687 @@
+I want you to build a complete, polished frontend prototype for a startup called WAYLO from scratch.
+
+IMPORTANT:
+- Do not make a generic travel website.
+- Do not create a simple flat landing page.
+- I want a premium, futuristic, interactive travel-tech prototype with strong 3D animation.
+- This is a college startup prototype, so it should look impressive enough for a presentation/demo.
+- Build everything directly in this GitHub repository.
+- You are responsible for creating all required files and making the site fully functional.
+- Do not just give me code or instructions. Actually create/edit the files in the repository.
+
+==================================================
+BRAND
+==================================================
+
+Brand name: WAYLO
+
+Tagline:
+"Trips That Fit You"
+
+Concept:
+Waylo is an AI-powered travel planning platform designed especially for young people, college students and hostel students in their 20s.
+
+The problem:
+Travel planning takes too much time. People have to compare destinations, budgets, stays, activities, transportation and itineraries across many websites.
+
+Waylo:
+A user tells Waylo where they want to go, their budget and their travel vibe. Waylo creates a personalized trip plan around them.
+
+Core experience:
+
+USER INPUT
+↓
+Destination
+↓
+Budget
+↓
+Travel vibe
+↓
+Waylo analyzes preferences
+↓
+Personalized trip
+↓
+Itinerary + estimated budget + stays + activities
+
+Tagline:
+"Trips That Fit You"
+
+==================================================
+DESIGN DIRECTION
+==================================================
+
+Overall feeling:
+
+Premium + youthful + modern + futuristic + travel-tech startup.
+
+Think:
+- Apple-level cleanliness
+- modern startup landing page
+- Gen-Z travel aesthetic
+- cinematic 3D
+- subtle luxury
+- smooth motion
+- strong typography
+- excellent whitespace
+- sophisticated UI
+
+Avoid:
+- cheesy travel website design
+- excessive gradients
+- cartoon illustrations
+- generic stock-template appearance
+- excessive text
+- old-fashioned Bootstrap-style cards
+- clutter
+- overly colorful UI
+
+Color direction:
+
+Primary:
+Deep teal / dark green
+
+Secondary:
+Fresh green
+
+Accent:
+Warm orange
+
+Background:
+Warm off-white / cream
+
+Dark sections:
+Very dark green/teal
+
+Use the colors consistently and elegantly.
+
+Use rounded corners, subtle borders, glass effects where appropriate, realistic shadows and excellent spacing.
+
+==================================================
+MOST IMPORTANT PART — 3D HERO
+==================================================
+
+The first screen MUST have an obvious, impressive 3D travel animation.
+
+Do NOT make the 3D animation tiny or hidden in the background.
+
+The 3D scene should be a major part of the hero.
+
+Use Three.js or another suitable browser-compatible 3D library.
+
+The experience should include:
+
+1. A large stylized 3D Earth/globe or travel planet.
+
+2. Multiple glowing travel routes around the globe.
+
+3. A recognizable 3D airplane flying along one of the routes.
+
+4. Destination markers/pins floating around the globe.
+
+5. Small particles/stars giving depth to the scene.
+
+6. Subtle clouds/atmosphere around the globe.
+
+7. The airplane should continuously move along the route.
+
+8. The camera should have subtle depth and parallax.
+
+9. Mouse movement should affect the 3D scene.
+
+10. Scrolling should affect the 3D scene.
+
+11. The globe should slowly rotate.
+
+12. Routes should animate/glow.
+
+13. Destination markers should gently float.
+
+14. The airplane should tilt naturally while turning.
+
+15. The entire scene should feel cinematic rather than like a basic Three.js demo.
+
+IMPORTANT:
+The 3D elements must be clearly visible on desktop.
+
+Do not hide the 3D scene behind text.
+
+Make the scene responsive for mobile.
+
+If external 3D models are unreliable, create the airplane and other objects procedurally using Three.js geometry instead of depending on unavailable model files.
+
+Avoid Three.js APIs that are unavailable in the selected Three.js version.
+
+==================================================
+HERO LAYOUT
+==================================================
+
+Create a full-screen cinematic hero.
+
+Left side:
+
+Small label:
+"AI-POWERED TRAVEL PLANNER"
+
+Large headline:
+
+"Your trip.
+Your budget.
+Your way."
+
+Highlight "Your way." elegantly.
+
+Below:
+
+"Tell Waylo what you want. We'll build the trip around you."
+
+Buttons:
+
+"Plan my trip"
+
+and secondary:
+"Explore Waylo"
+
+Right side:
+
+Large interactive 3D globe/travel scene.
+
+Add a floating travel information card around the scene:
+
+MUMBAI → GOA
+
+₹12,500 EST.
+
+4 DAYS
+
+Beach • Food • Adventure
+
+The card should float in 3D space and subtly move with the scene.
+
+==================================================
+SCROLL EXPERIENCE
+==================================================
+
+The website should NOT feel like a collection of static sections.
+
+Make scrolling part of the storytelling.
+
+As the user scrolls:
+
+1. Hero starts with the globe.
+
+2. Camera subtly moves closer to the globe.
+
+3. Airplane travels across the globe.
+
+4. Route lines animate.
+
+5. Hero text transitions smoothly.
+
+6. The 3D scene moves/rotates.
+
+7. The scene transitions into the Waylo product experience.
+
+Use:
+- IntersectionObserver
+- requestAnimationFrame
+- CSS transforms
+- Three.js animation
+- scroll progress
+
+Do not use excessive animations that make the website laggy.
+
+==================================================
+SECTION 2 — THE PROBLEM
+==================================================
+
+Create a clean section with:
+
+"Travel planning shouldn't feel like another project."
+
+Supporting text:
+
+"Too many tabs. Too many comparisons. Too much time spent figuring out what actually fits you."
+
+Show a visual transformation:
+
+MESSY TRAVEL PLANNING
+→
+WAYLO
+
+Use animated floating cards representing:
+
+Flights
+Hotels
+Activities
+Budget
+Maps
+Reviews
+
+These cards should gradually come together into one Waylo interface.
+
+==================================================
+SECTION 3 — HOW WAYLO WORKS
+==================================================
+
+Create a dark premium section.
+
+Title:
+
+"Three steps.
+One trip that fits."
+
+Three stages:
+
+01
+TELL US
+
+"Your destination, budget and travel vibe."
+
+02
+WAYLO THINKS
+
+"AI connects the pieces into a trip built around you."
+
+03
+YOU GO
+
+"Your itinerary, your budget and your trip — ready."
+
+Make this section interactive.
+
+Use a central 3D/animated travel route or orbit system.
+
+As the user scrolls between the three steps, the central visual changes.
+
+==================================================
+SECTION 4 — THE PLANNER
+==================================================
+
+This should look like the actual Waylo product.
+
+Heading:
+
+"Plan it your way."
+
+Subheading:
+
+"Give us the basics. We'll handle the planning."
+
+Create a beautiful interactive planner.
+
+Fields:
+
+WHERE TO?
+Example:
+Goa, India
+
+BUDGET
+
+₹5–10K
+₹10–20K
+₹20–40K
+
+TRAVEL VIBE
+
+Beach
+Adventure
+Culture
+Food
+Relaxed
+Nightlife
+
+TRIP LENGTH
+
+2–3 days
+4–5 days
+6–7 days
+
+Create a large button:
+
+"Generate my trip"
+
+Make all controls interactive.
+
+Selected options should visibly change state.
+
+==================================================
+AI GENERATION EXPERIENCE
+==================================================
+
+When the user clicks:
+
+"Generate my trip"
+
+Do NOT immediately show the result.
+
+Create a cinematic AI loading experience.
+
+For example:
+
+"Waylo is building your trip..."
+
+Then animated steps:
+
+Understanding your vibe...
+Finding routes...
+Balancing your budget...
+Picking experiences...
+Building your itinerary...
+
+Use a 2–3 second simulated loading sequence.
+
+Then show:
+
+"Your trip is ready."
+
+Button:
+
+"View my trip"
+
+==================================================
+SECTION 5 — GENERATED TRIP
+==================================================
+
+Create a realistic product dashboard/result.
+
+Example:
+
+GOA
+
+4 DAYS / 3 NIGHTS
+
+₹12,500 EST.
+
+"Built around your vibe."
+
+Show:
+
+DAY 01
+Arrival + beach
+
+DAY 02
+Adventure + local food
+
+DAY 03
+Explore + sunset
+
+DAY 04
+Relax + departure
+
+Also show budget breakdown:
+
+Stay
+₹4,500
+
+Transport
+₹2,500
+
+Food
+₹2,000
+
+Activities
+₹2,000
+
+Buffer
+₹1,500
+
+Add:
+- destination image
+- itinerary cards
+- budget visualization
+- accommodation card
+- activities
+- transport
+
+This section should look like a real travel-planning application.
+
+==================================================
+SECTION 6 — EXPLORE
+==================================================
+
+Heading:
+
+"Where could you go?"
+
+Create large destination cards.
+
+Examples:
+
+GOA
+Beach / Food / Nightlife
+
+JAIPUR
+Culture / Heritage / Food
+
+RISHIKESH
+Adventure / Nature / Wellness
+
+Use large photography and elegant overlays.
+
+Cards should have subtle hover animations.
+
+When hovered:
+- image zooms slightly
+- card moves upward
+- destination information appears
+
+==================================================
+SECTION 7 — WHY WAYLO
+==================================================
+
+Create a premium section explaining differentiation.
+
+Four points:
+
+PERSONALIZED
+Built around your preferences.
+
+BUDGET-FIRST
+Plans around what you can actually spend.
+
+AI-POWERED
+Less searching. More deciding.
+
+MADE FOR YOUR GENERATION
+Designed around how young travelers actually plan trips.
+
+Use clean animated icons/3D elements.
+
+==================================================
+FINAL CTA
+==================================================
+
+Create a strong final section.
+
+Headline:
+
+"Your next trip is already waiting."
+
+Subtext:
+
+"Tell Waylo what you want."
+
+Button:
+
+"Plan my trip"
+
+Bring back a small version of the animated airplane/route from the hero.
+
+==================================================
+FOOTER
+==================================================
+
+WAYLO
+
+"Trips That Fit You"
+
+Navigation:
+How it works
+Explore
+Plan a trip
+Why Waylo
+
+Add:
+© 2026 Waylo
+
+==================================================
+TECHNICAL REQUIREMENTS
+==================================================
+
+Build the website from scratch.
+
+Preferred stack:
+
+HTML
+CSS
+JavaScript
+
+Three.js for 3D.
+
+Do NOT unnecessarily introduce React/Vite if the repository is currently a simple static GitHub Pages project.
+
+The website must work on GitHub Pages.
+
+Use relative paths wherever possible.
+
+If external libraries are used, use reliable CDN links.
+
+Make sure all CDN/library versions are compatible.
+
+Do not use unsupported Three.js geometry or APIs.
+
+==================================================
+PERFORMANCE
+==================================================
+
+The 3D scene must look impressive but remain reasonably performant.
+
+Use:
+- requestAnimationFrame
+- optimized geometry
+- limited particle counts
+- resize handling
+- devicePixelRatio capped appropriately
+- animation cleanup where necessary
+
+On mobile:
+- reduce particle count
+- reduce 3D complexity
+- maintain the visual experience
+- do not simply remove the 3D scene
+
+==================================================
+RESPONSIVE DESIGN
+==================================================
+
+Desktop:
+Premium cinematic layout with large 3D scene.
+
+Tablet:
+Reorganize hero and planner gracefully.
+
+Mobile:
+Stack the content while keeping a visible 3D travel animation.
+
+Make sure there is no horizontal scrolling.
+
+==================================================
+MICRO INTERACTIONS
+==================================================
+
+Add polished interactions:
+
+- buttons have hover/press states
+- cards lift slightly
+- destination images zoom subtly
+- chips animate when selected
+- route lines glow
+- airplane moves continuously
+- globe rotates
+- floating objects bob
+- sections reveal on scroll
+- numbers/counts animate where appropriate
+- smooth transitions everywhere
+
+==================================================
+IMPORTANT UX RULE
+==================================================
+
+The website should feel like a real startup product, not a school project.
+
+Someone should be able to land on the website and immediately understand:
+
+1. What Waylo is.
+2. Who it is for.
+3. What problem it solves.
+4. How it works.
+5. What the actual product looks like.
+
+==================================================
+LOGO
+==================================================
+
+Use the existing Waylo logo if it is already present in the repository.
+
+If the logo file is not available, keep the wordmark:
+
+WAYLO
+
+with the tagline:
+
+TRIPS THAT FIT YOU
+
+Do not invent a completely different brand identity.
+
+==================================================
+FILE STRUCTURE
+==================================================
+
+Create a clean structure such as:
+
+index.html
+styles.css
+script.js
+README.md
+
+If assets are required:
+
+assets/
+  images/
+  icons/
+
+Keep the project simple enough for GitHub Pages.
+
+==================================================
+FINAL REQUIREMENT
+==================================================
+
+Before finishing:
+
+1. Check the entire codebase.
+2. Make sure there are no JavaScript errors.
+3. Make sure all buttons work.
+4. Make sure the 3D animation actually renders.
+5. Make sure the airplane is clearly visible.
+6. Make sure the globe/routes are clearly visible.
+7. Make sure scroll animations work.
+8. Make sure the planner interaction works.
+9. Make sure the simulated AI generation works.
+10. Make sure the generated trip appears.
+11. Make sure the site works on desktop and mobile.
+12. Make sure GitHub Pages can deploy it.
+
+DO NOT stop after creating the landing page.
+
+Build the complete Waylo prototype from the first 3D hero through the interactive planner and generated-trip experience.
+
+The priority order is:
+
+1. FUNCTIONALITY
+2. OBVIOUS HIGH-QUALITY 3D ANIMATION
+3. PREMIUM VISUAL DESIGN
+4. SMOOTH INTERACTIONS
+5. RESPONSIVENESS
+6. PERFORMANCE
+
+Start from the current repository state and replace/rebuild the existing implementation wherever necessary rather than trying to preserve weak parts of the current design.
